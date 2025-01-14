@@ -6,3 +6,5 @@ Without plugin:
 With plugin: 
 ![with](https://github.com/user-attachments/assets/d21fae7d-c1e2-40c1-bc26-6e34158af47b)
 
+# Notes
+Also fixes block flickering in some cases, similar to BlockLagFix. This plugin will not work with pocketmine forks such as the NetherGames fork.
