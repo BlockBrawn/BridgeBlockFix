@@ -3,6 +3,5 @@ name: BridgeBlockFix
 version: 1.0.0
 main: GameParrot\BridgeBlockFix\Main
 api: 5.16.0
-src-namespace-prefix: GameParrot\BridgeBlockFix
 icon: icon.png
 ...

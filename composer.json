@@ -1,0 +1,27 @@
+{
+	"name": "gameparrot/bridgeblockfix",
+	"description": "Pocketmine plugin that fixes blocks appearing when bridging",
+	"type": "library",
+	"license": "LGPL-3.0-only",
+	"minimum-stability": "dev",
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"require-dev": {
+		"nethergamesmc/pocketmine-mp": "dev-stable",
+		"sof3/pharynx": "dev-master"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:NetherGamesMC/PocketMine-MP.git"
+		}
+	],
+	"scripts": {
+		"build": [
+			"@php -dphar.readonly=0 ./vendor/bin/pharynx -i . -c -p=BridgeBlockFix.phar"
+		]
+	}
+}
